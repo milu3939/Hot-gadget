@@ -77,16 +77,23 @@ h3{
     margin: 20px 30px;
 }
 
-.link a:link, a:visited{
+.link{
     color: orangered;
+    display: flex;
+    text-decoration: none;
+    padding-bottom: 20px;
+}
+.link a:hover{
     text-decoration: none;
 }
 .slid-div .active{
     width: 80px;
     height: 8px;
     margin: 3px;
+    
     background-color: orangered
 }
+
 .col-md-6{
     flex: 0 0 50%;
     max-width: 50%;
@@ -119,7 +126,7 @@ h3{
     margin-left: 220px;
     margin-top: -120px;
 }
-.place-order-thumb{
-    display: flex;
-    align-items: center;
+.pale-order-thumb{
+    max-width: 100%;
+    vertical-align: middle;
 }
